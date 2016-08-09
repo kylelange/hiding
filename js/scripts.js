@@ -1,4 +1,6 @@
 $(function(){
+  $("body").addClass("backgroundImage");
+
   $("#click1").click(function() {
     $("#shy-owl").slideUp();
   });
@@ -24,7 +26,7 @@ $(function(){
   });
   $("#click8").click(function(){
     $("body").removeClass();
-    $("body").addClass("green-background");
+    $("body").addClass("backgroundImage");
   });
   $("#button1").click(function(){
     $("#card1").toggle();
@@ -43,6 +45,12 @@ $(function(){
   });
   $("#button6").click(function(){
     $("#card6").toggle();
+  });
+  $("#smack-m").click(function(){
+    $("ul.unstyled1").prepend("<li>Mothra's the best! Godzilla's so poor his front and back door are on the same hinge!</li>");
+  });
+  $("#smack-g").click(function(){
+    $("ul.unstyled2").prepend("<li>Godzilla is wet! Mothra is so ratchet she wears her mama's clothes NON-ironically.</li>")
   });
 });
 
