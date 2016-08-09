@@ -11,6 +11,9 @@ $(function(){
   $("#click4").click(function() {
     $("#hidden-p").slideToggle();
   });
+  $("#click5").click(function(){
+    $("#hidden-p2").slideDown();
+  });
 });
 
 

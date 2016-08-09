@@ -9,6 +9,6 @@
   text-decoration: underline;
 }
 
-#hiding-image, #toggle-image, #hidden-p {
+#hiding-image, #toggle-image, #hidden-p, #hidden-p2 {
   display: none;
 }
