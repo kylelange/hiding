@@ -1,0 +1,14 @@
+
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+#hiding-image, #toggle-image, #hidden-p {
+  display: none;
+}
