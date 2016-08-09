@@ -3,6 +3,11 @@ body {
   background-color: darkgreen;
 }
 
+p {
+  font-size: 16px;
+  padding-left: 15px;
+}
+
 /*Class selectors*****************************************/
 .clickable {
   cursor: pointer;
@@ -23,9 +28,17 @@ body {
 .green-background {
   background-color: darkgreen;
 }
+
+.col-sm-4 {
+  border: 3px solid;
+  border-radius: 15px 50px;
+}
+.btn{
+ margin-left: 20px;]
+}
 /*Id selectors*******************************************/
 
-#hiding-image, #toggle-image, #hidden-p, #hidden-p2 {
+#hiding-image, #toggle-image, #hidden-p, #hidden-p2, #card1, #card2, #card3, #card4, #card5, #card6 {
   display: none;
 }
 
