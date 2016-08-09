@@ -1,5 +1,9 @@
 
+body {
+  background-color: darkgreen;
+}
 
+/*Class selectors*****************************************/
 .clickable {
   cursor: pointer;
   color: #0088cc;
@@ -9,6 +13,46 @@
   text-decoration: underline;
 }
 
+.white-background {
+  background-color: white;
+}
+.red-background {
+  background-color: red;
+}
+
+.green-background {
+  background-color: darkgreen;
+}
+/*Id selectors*******************************************/
+
 #hiding-image, #toggle-image, #hidden-p, #hidden-p2 {
   display: none;
+}
+
+#click6, #click7, #click8 {
+    padding: 15px;
+}
+
+#click6 {
+  color: blanchedalmond;
+}
+
+#click6:hover {
+  color: darkred;
+}
+
+#click7{
+  color: crimson;
+}
+
+#click7:hover{
+  color: darkred;
+}
+
+#click8{
+  color: lightgreen;
+}
+
+#click8:hover{
+  color: red;
 }

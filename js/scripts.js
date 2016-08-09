@@ -14,6 +14,18 @@ $(function(){
   $("#click5").click(function(){
     $("#hidden-p2").slideDown();
   });
+  $("#click6").click(function(){
+    $("body").removeClass();
+    $("body").addClass("white-background");
+  });
+  $("#click7").click(function(){
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
+  $("#click8").click(function(){
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
 });
 
 
